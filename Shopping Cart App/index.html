@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>SR SuperMart</h1>
+        <div class="cart-icon" onclick="toggleCart()">&#128722;<span id="cart-count">0</span></div>
+    </nav>
+    <div class="product-list" id="product-list">
+
+    </div>
+    <div class="cart" id="cart">
+        <h2>Shopping Cart</h2>
+        <div id="card-items"></div>
+        <p>Total:$<span id="cart-total">0.00</span></p>
+        <button onclick="clearCart()" class="empycart">Empty Cart</button>
+    </div>
+    <footer>
+        <p>&copy; 2025 Shopping Cart. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
